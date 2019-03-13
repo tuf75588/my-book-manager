@@ -2,7 +2,7 @@
   "name": "my-book-manager",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "start": "webpack",
     "develop": "webpack-dev-server --open"
@@ -14,11 +14,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tuf75588/my-book-manager/issues"
-  },
+  "bugs": {},
   "homepage": "https://github.com/tuf75588/my-book-manager#readme",
   "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.0",
     "css-loader": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "prettier": "^1.16.4",
@@ -26,5 +28,6 @@
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
-  }
+  },
+  "dependencies": {}
 }
